@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>RANDOME</title>
+  <link rel="stylesheet" href="artist.css">
+</head>
+<body>
+
+<h1 class="fade-in">RANDOME</h1>
+<a href="index.html">← back</a>
+
+<img src="assets/randome.jpg" class="fade-in">
+
+<p class="fade-in">im a artist that's not that good, so give me tips....</p>
+
+<h2>songs</h2>
+<iframe src="https://www.youtube.com/embed/sT2DDtTsjwg" "></iframe>
+
+<h2>socials</h2>
+
+<a href="https://soundcloud.com/richie-king-432410350" target="_blank">SoundCloud</a>
+<a href="https://www.youtube.com/@RANDOME_AT_SPIRT" target="_blank">YouTube</a>
+
+<h2>try your luck</h2>
+<input type="number" id="numberInput">
+<button onclick="checkNumber()">submit</button>
+
+<script>
+function checkNumber() {
+  const input = document.getElementById("numberInput").value;
+
+  if (input === "") {
+    alert("enter a number");
+    return;
+  }
+
+  alert("you win fucking nothing");
+}
+</script>
+
+</body>
+</html>
